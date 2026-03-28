@@ -26,7 +26,7 @@ body {
 .hero h1 {
   font-size: 6rem;
   letter-spacing: 4px;
-  background: linear-gradient(0deg, #49cfff, #0015ff);
+  background: linear-gradient(90deg, #49cfff, #0015ff);
   -webkit-background-clip: text;
   color: transparent;
 }
