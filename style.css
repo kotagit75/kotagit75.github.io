@@ -103,6 +103,30 @@ footer {
   opacity: 0.9;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 30px;
+
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #49cfff, #0015ff);
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
 
   .hero h1 {
