@@ -98,6 +98,18 @@ footer {
   opacity: 0.4;
 }
 
+.logo {
+  width: 120px;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 10px rgba(73, 207, 255, 0.5));
+  transition: 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 20px rgba(73, 207, 255, 0.8));
+}
+
 @media (max-width: 768px) {
 
   .hero h1 {
@@ -131,5 +143,8 @@ footer {
 
   .mechanism ol {
     padding-left: 20px;
+  }
+  .logo {
+    width: 80px;
   }
 }
